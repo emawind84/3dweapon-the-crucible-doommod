@@ -1,5 +1,5 @@
 ACTOR TheCrucibleBase : BrutalWeapon {
-    //$category Weapons
+    //$category Weapons 
     obituary "%o was choped down by %k's Crucible."
     Inventory.PickupSound "AXEDRAW"
     Inventory.Pickupmessage "You got something that looks too big to be called a sword!"
