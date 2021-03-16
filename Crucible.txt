@@ -5,7 +5,7 @@ ACTOR TheCrucible : BrutalWeapon replaces Crucible {
     Inventory.Pickupmessage "You got something that looks too big to be called a sword!"
     +WEAPON.NOAUTOAIM
     //+WEAPON.NOAUTOFIRE  // disable the alt fire
-    //+FORCEXYBILLBOARD
+    +FORCEXYBILLBOARD
     +WEAPON.NOALERT
     +WEAPON.AXEBLOOD
     +WEAPON.CHEATNOTWEAPON
@@ -19,14 +19,19 @@ ACTOR TheCrucible : BrutalWeapon replaces Crucible {
     Weapon.SlotNumber 1
     Weapon.KickBack 100
 
-    Scale 0.9
+    Scale 0.7
 
     States
     {
     Spawn:
-        CRUC A 1
-        CRUC A -1
-        Stop
+        TNT1 A 0 A_CheckSight("Spawn2")
+        //CRUC B 10
+        CRUC BBBBBB 2 A_SpawnItem("CrucibleSpawnRedFlare",0,15)
+        loop
+
+    Spawn2:
+        CRUC B 20
+        Goto Spawn
 
     Ready:
         TNT1 A 0
@@ -206,4 +211,12 @@ ACTOR TheDoomSlayer : BDoomer
 	Species "Marines"
 
     +FRIGHTENING
+}
+
+Actor CrucibleSpawnRedFlare: RedFlare
+{
+    Alpha 0.2
+    Xscale 0.25
+    Yscale 0.15
+    +FORCEXYBILLBOARD
 }
