@@ -1,0 +1,7 @@
+#library "TheCrucible"
+#include "zcommon.acs"
+
+Script "GiveMeTheCrucible" (void)
+{
+    SetWeapon("TheCrucible");
+}
