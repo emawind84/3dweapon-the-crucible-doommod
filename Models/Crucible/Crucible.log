@@ -38,11 +38,11 @@ Number of Skins: 0
 Offset Frames: 108
 Offset Tags: 4140
 Offset Surfaces: 4140
-Offset end: 1810128
+Offset end: 1810488
 !Warning: Vertex limit (11840/8192) reached for surface Crucible.007
 !Warning: Triangle limit (23040/16384) reached for surface Crucible.007
 Total Shaders: 9
 Total Triangles: 35323
-Total Vertices: 19174
+Total Vertices: 19179
 MD3 saved to F:\Games\ZDL_3-1.1_Win_x86\Crucible\Models\Crucible\Crucible.md3
-Elapsed 55.56897 seconds
+Elapsed 57.68314 seconds
