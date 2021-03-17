@@ -1,7 +1,16 @@
 #library "TheCrucible"
 #include "zcommon.acs"
 
-Script "GiveMeTheCrucible" (void)
+script "GiveMeTheCrucible" (void)
 {
     SetWeapon("TheCrucible");
+}
+
+script "CrucibleStrike" (int actorsDamaged)
+{
+    Log(s:"Strike hit: ", d:actorsDamaged);
+    if (actorsDamaged > 0)
+    {
+        SetActorState(0,"Hit");
+    }
 }
