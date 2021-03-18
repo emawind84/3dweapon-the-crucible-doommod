@@ -8,7 +8,7 @@ script "GiveMeTheCrucible" (void)
 
 script "CrucibleStrike" (int actorsDamaged)
 {
-    Log(s:"Strike hit: ", d:actorsDamaged);
+    //Log(s:"Strike hit: ", d:actorsDamaged);
     if (actorsDamaged > 0)
     {
         SetActorState(0,"Hit");

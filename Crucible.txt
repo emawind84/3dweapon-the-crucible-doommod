@@ -145,9 +145,9 @@ Actor CrucibleAttack {
     +MISSILE
     +FORCEXYBILLBOARD
     +FORCERADIUSDMG
-    //+BLOODSPLATTER
     +EXTREMEDEATH
     +FORCEPAIN
+    +NODAMAGETHRUST
     RenderStyle Add
     Alpha 0.6
     Damage 0
@@ -155,7 +155,7 @@ Actor CrucibleAttack {
     SeeSound "none"
     DeathSound "none"
     decal "none"
-    Scale 1
+    Scale 0.01
 
     States {
         Spawn:
@@ -176,6 +176,8 @@ Actor CrucibleAttack {
     }
 }
 
+// AMMO
+
 Actor RedEnergyCharge : Ammo
 {
     Inventory.PickupMessage "Picked up 3 red energy charge"
@@ -184,6 +186,7 @@ Actor RedEnergyCharge : Ammo
     Inventory.Icon "ARENA0"
     Ammo.BackpackAmount 3
     Ammo.BackpackMaxAmount 3
+    Scale 0.5
 
 	+INVENTORY.UNDROPPABLE
 	+INVENTORY.PERSISTENTPOWER
@@ -193,10 +196,12 @@ Actor RedEnergyCharge : Ammo
     {
     Spawn:
         //AREN AAAAAA 2 A_SpawnItem("RedEnergySpawnRedFlare",0,10)
-        AREN ABCABC 6
+        AREN ABCABC 2 A_SpawnItem("RedEnergySpawnRedFlare",0,2)
         loop
     }
 }
+
+// PLAYER
 
 ACTOR TheDoomSlayer : BDoomer
 {
@@ -233,7 +238,38 @@ ACTOR TheDoomSlayer : BDoomer
     +FRIGHTENING
 }
 
-Actor CrucibleSpawnRedFlare: RedFlare
+
+
+
+
+// RED FLARE
+
+Actor CrucibleRedFlare
+{
+    +NOINTERACTION
+    +NOGRAVITY
+    +CLIENTSIDEONLY
+    +NOTONAUTOMAP
+    renderstyle Add
+    radius 1
+    height 1
+    alpha 0.4
+    scale 0.4
+
+    states
+    {
+    Spawn:
+        TNT1 A 0
+        TNT1 A 0 A_Jump(128,2)
+        LENR A 2 bright
+        stop
+        TNT1 A 0
+        LENR B 2 bright
+        stop
+    }
+}
+
+Actor CrucibleSpawnRedFlare : CrucibleRedFlare
 {
     Alpha 0.2
     Xscale 0.25
@@ -241,13 +277,19 @@ Actor CrucibleSpawnRedFlare: RedFlare
     +FORCEXYBILLBOARD
 }
 
-Actor RedEnergySpawnRedFlare: RedFlare
+Actor RedEnergySpawnRedFlare : CrucibleRedFlare
 {
-    Alpha 0.2
+    Alpha 0.5
     Xscale 0.15
-    Yscale 0.15
+    Yscale 0.08
     +FORCEXYBILLBOARD
 }
+
+
+
+
+
+// WEAPON & AMMO SPAWNER
 
 ACTOR BFG9000_Replacer : BFGReplacer {}
 ACTOR BFG9000Replacer : RandomSpawner replaces BFG9000
@@ -285,7 +327,7 @@ ACTOR CrucibleSpawner : CustomInventory
         Goto Spawn2
 
     Pickup:
-        TNT1 A 0 A_Log("Pickup state called!")
+        //TNT1 A 0 A_Log("Pickup state called!")
         TNT1 A 0 A_GiveInventory("TheCrucible", 1)
         TNT1 A 0 A_Giveinventory("RedEnergyCharge", random(3, 10))
         TNT1 A 1
