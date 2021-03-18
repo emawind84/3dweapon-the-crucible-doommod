@@ -22,6 +22,10 @@ Model TheCrucible
     FrameIndex CRST F 0 6
 
     FrameIndex CRID A 0 0
+	FrameIndex CRID B 0 0
+	FrameIndex CRID C 0 0
+	FrameIndex CRID D 0 0
+	FrameIndex CRID E 0 0
 
     // Fire
 
