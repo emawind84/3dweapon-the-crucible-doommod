@@ -1,7 +1,7 @@
 addplayerclass "TheDoomSlayer"
 
 alias Cruciblekey "pukename GiveMeTheCrucible"
-defaultBind u "Cruciblekey"
+//defaultBind u "Cruciblekey"
 
 // brutaldoom patch
 setslot 1 TheCrucible DSweap BrutalAxe Chain_Saw Melee_Attacks ClassicFist ClassicSaw

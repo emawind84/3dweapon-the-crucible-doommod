@@ -3,6 +3,7 @@
 
 script "GiveMeTheCrucible" (void)
 {
+    GiveInventory("TheCrucible", 1);
     SetWeapon("TheCrucible");
 }
 
