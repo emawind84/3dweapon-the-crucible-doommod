@@ -182,9 +182,8 @@ Actor CrucibleAttack {
         Crash:
         Death:
             TNT1 A 0
-            TNT1 A 0 A_StartSound("crucible/strike", CHAN_AUTO)
+            //TNT1 A 0 A_StartSound("crucible/strike", CHAN_AUTO)
             //TNT1 A 0 A_SpawnItem ("Sparks", 0)
-            //TNT1 A 10 ACS_NamedExecuteAlways("CrucibleStrike", 0, A_Explode(random(200, 400), 60, 0, false, 60))
             TNT1 A 10 A_JumpIf(A_Explode(random(200, 400), 60, 0, false, 60) > 0, "Hit")
             Stop
         
@@ -224,6 +223,7 @@ ACTOR RedEnergyChargeContainer : SwitchingDecoration
 Actor RedEnergyCharge : Ammo
 {
     Inventory.PickupMessage "Picked up 3 red energy charge"
+    //Inventory.PickupSound "misc/ammo_pkup"
     Inventory.Amount 3
     Inventory.MaxAmount 30
     Inventory.Icon "ARENA0"
@@ -360,11 +360,18 @@ ACTOR BFG9000Replacer : RandomSpawner replaces BFG9000
     DropItem "CrucibleSpawner", 255, 1
 }
 
-ACTOR AmmoCell2 : AmmoCell {}
-ACTOR RedEnergyReplacer : RandomSpawner replaces AmmoCell
+ACTOR CR_ClipAmmo : Clip2 {}
+ACTOR RedEnergyChargeReplacer : RandomSpawner replaces Clip
 {
-    DropItem AmmoCell2
-    DropItem RedEnergyChargeContainer
+    DropItem CR_ClipAmmo, 255, 10
+    DropItem RedEnergyChargeContainer, 255, 2
+}
+
+ACTOR CR_ClipBoxAmmo : ClipBox2 {}
+ACTOR RedEnergyChargeReplacer2 : RandomSpawner replaces ClipBox
+{
+    DropItem CR_ClipBoxAmmo, 255, 10
+    DropItem RedEnergyChargeContainer, 255, 2
 }
 
 ACTOR CrucibleSpawner : CustomInventory replaces Crucible
