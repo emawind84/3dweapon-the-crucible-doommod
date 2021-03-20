@@ -14,7 +14,7 @@ The sword works with Red Energy Charges, every hit use one charge, the alternate
 
 **zdoom** if you want to play with the 2D version - https://zdoom.org/downloads
 
-**questzdoom** if you want to play with the 3D version on Quest 2 - https://www.questzdoom.com/
+**QuestZDoom** if you want to play with the 3D version on Quest 2 - https://www.questzdoom.com/
 
 **Brutal Doom v21** - https://www.moddb.com/mods/brutal-doom/downloads/brutal-doom-v21-beta
 
