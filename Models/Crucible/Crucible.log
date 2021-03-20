@@ -26,6 +26,12 @@ Exported 7 frame(s) for Crucible.007
 Exporting Crucible.008
 Exported UVMap coordinates for Crucible.008
 Exported 7 frame(s) for Crucible.008
+Exporting Crucible.009
+Exported UVMap coordinates for Crucible.009
+Exported 7 frame(s) for Crucible.009
+Exporting Crucible.010
+Exported UVMap coordinates for Crucible.010
+Exported 7 frame(s) for Crucible.010
 Header Information
 Ident: IDP3
 Version: 15
@@ -33,16 +39,18 @@ Name:
 Flags: 0
 Number of Frames: 8
 Number of Tags: 0
-Number of Surfaces: 9
+Number of Surfaces: 11
 Number of Skins: 0
 Offset Frames: 108
-Offset Tags: 4140
-Offset Surfaces: 4140
-Offset end: 1811640
+Offset Tags: 5036
+Offset Surfaces: 5036
+Offset end: 1868616
 !Warning: Vertex limit (11840/8192) reached for surface Crucible.007
 !Warning: Triangle limit (23040/16384) reached for surface Crucible.007
-Total Shaders: 9
-Total Triangles: 35323
-Total Vertices: 19195
+Total Shaders: 11
+Total Triangles: 36367
+Total Vertices: 19795
 MD3 saved to F:\Games\ZDL_3-1.1_Win_x86\Crucible\models\Crucible\Crucible.md3
-Elapsed 59.60268 seconds
+Elapsed 59.08033 seconds
+Exported UVMap coordinates for Crucible.010
+Exported 7 frame(s) for Crucible.010

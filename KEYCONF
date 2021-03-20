@@ -1,4 +1,4 @@
-addplayerclass "TheDoomSlayer"
+addplayerclass "TheTitanSlayer"
 
 alias Cruciblekey "pukename GiveMeTheCrucible"
 //defaultBind u "Cruciblekey"

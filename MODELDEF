@@ -14,11 +14,6 @@ Model TheCrucible
 
     // Ready
 
-    FrameIndex CRST A 0 1
-    FrameIndex CRST B 0 2
-    FrameIndex CRST C 0 3
-    FrameIndex CRST D 0 4
-    FrameIndex CRST E 0 5
     FrameIndex CRST F 0 6
 
     FrameIndex CRID A 0 0
@@ -49,6 +44,28 @@ Model TheCrucible
     FrameIndex CRBL D 0 0
     FrameIndex CRBL E 0 0
 
+}
+
+Model TheCrucible
+{
+	Path "Models/Crucible"
+    Model 0 "Crucible.md3"
+    Skin 0 "Crucible2.png"
+    Scale 1.0 1.0 1.0
+    PitchOffset 0
+    Offset 0.0 0.0 0.0
+    ZOffset -5
+
+	// NOCHARGE
+
+	FrameIndex CRST A 0 1
+
+	// CHARGING
+	
+    FrameIndex CRST B 0 2
+    FrameIndex CRST C 0 3
+    FrameIndex CRST D 0 4
+    FrameIndex CRST E 0 5
 }
 
 Model TheCrucible

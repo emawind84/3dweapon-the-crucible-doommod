@@ -247,12 +247,12 @@ Actor RedEnergyCharge : Ammo
 
 // PLAYER
 
-ACTOR TheDoomSlayer : BDoomer
+ACTOR TheTitanSlayer : BDoomer
 {
     +FRIGHTENING
     Speed 1.0
     Health 200
-	Player.DisplayName "The Doom Slayer"
+	Player.DisplayName "The Titan Slayer"
 
     // startitem are not inherited
 	Player.StartItem "TheCrucible"
@@ -374,7 +374,7 @@ ACTOR RedEnergyChargeReplacer2 : RandomSpawner replaces ClipBox
     DropItem RedEnergyChargeContainer, 255, 2
 }
 
-ACTOR CrucibleSpawner : CustomInventory replaces Crucible
+ACTOR CrucibleSpawner : CustomInventory
 {
     Inventory.PickupSound "AXEDRAW"
     Inventory.Pickupmessage "You got something that looks too big to be called a sword!"
