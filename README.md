@@ -21,6 +21,14 @@ The sword works with Red Energy Charges, every hit use one charge, the alternate
 
 **Flamethrower Crucible Mod v1.2** by a90doomguy if you want to use the mod without the 3D Weapon - https://www.moddb.com/mods/doom-exp/addons/flamethrower-crucible-mod-v12
 
+## How to use
+
+Download the file `Crucible.pk3` from the releases page in order to play with the 2D version.
+
+Download the file `CrucibleVR.pk3` from the releases page to play with the 3D version.
+
+Latest release - https://github.com/emawind84/3dweapon-the-crucible-doommod/releases
+
 
 ## Other stuff
 
