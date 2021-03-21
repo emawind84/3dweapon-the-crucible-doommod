@@ -1,4 +1,4 @@
-# Crucible Weapon for Doom Classic, Doom 2 and Final Doom
+# Crucible Weapon for GZDoom and QuestZDoom
 
 The 3D Weapon has been tested for Oculus Quest 2 using QuestZDoom (https://www.questzdoom.com/)
 
