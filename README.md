@@ -28,9 +28,15 @@ Download the file `CrucibleVR.pk3` from the releases page to play with the 3D ve
 
 Latest release - https://github.com/emawind84/3dweapon-the-crucible-doommod/releases
 
-There is a new game mode "The Titan Slayer" to have some fun with the sword. If instead you choose other modes you can still find the sword instead of the BFG9000. This is a temporary setting that will be changed once I release the version 1.0.
+There is a new game mode *The Titan Slayer* to have some fun with the sword. If instead you choose other modes you can still find the sword instead of the *BFG9000*. This is a temporary setting that will be changed once I release the version 1.0.
 
 ![The Titan Slayer](/project/Textures/menu.png)
+
+You can also summon the sword using the following commands:
+
+`] summon CrucibleSpawner` - Crucible with some charges
+
+`] summon TheCrucible` - Sword without charges
 
 
 ## Other stuff
