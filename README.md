@@ -1,13 +1,13 @@
 # Crucible Weapon for Doom Classic, Doom 2 and Final Doom
 
-![Red Energy Charge](/sprites/Weapons/TheCrucible/CRUCA0.png)
-
 The 3D Weapon has been tested for Oculus Quest 2 using QuestZDoom (https://www.questzdoom.com/)
 
+![Red Energy Charge](/sprites/Weapons/TheCrucible/CRUCA0.png)
 
-![Red Energy Charge](/sprites/Weapons/TheCrucible/ARENA0.png)
 
 The sword works with Red Energy Charges, every hit use one charge, the alternate fire make a shield that use two charges.
+
+![Red Energy Charge](/sprites/Weapons/TheCrucible/ARENA0.png)
 
 
 ## Requirements
@@ -27,6 +27,10 @@ Download the file `Crucible.pk3` from the releases page in order to play with th
 Download the file `CrucibleVR.pk3` from the releases page to play with the 3D version.
 
 Latest release - https://github.com/emawind84/3dweapon-the-crucible-doommod/releases
+
+There is a new game mode "The Titan Slayer" to have some fun with the sword. If instead you choose other modes you can still find the sword instead of the BFG9000. This is a temporary setting that will be changed once I release the version 1.0.
+
+![The Titan Slayer](/project/Textures/menu.png)
 
 
 ## Other stuff
