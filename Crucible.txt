@@ -12,7 +12,7 @@ ACTOR TheCrucible : BrutalWeapon {
     Weapon.AmmoUse 0
     Weapon.AmmoGive 0
     Weapon.AmmoType "RedEnergyCharge"
-    Scale 0.4
+    Scale 0.35
 
     +WEAPON.NOAUTOAIM
     //+WEAPON.NOAUTOFIRE  // disable the alt fire
@@ -376,7 +376,7 @@ ACTOR CrucibleSpawner : CustomInventory
 {
     Inventory.PickupSound "AXEDRAW"
     Inventory.Pickupmessage "You got something that looks too big to be called a sword!"
-    Scale 0.4
+    Scale 0.35
     States
     {
     Spawn:
