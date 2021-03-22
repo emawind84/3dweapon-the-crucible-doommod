@@ -108,13 +108,13 @@ ACTOR TheCrucible : BrutalWeapon {
         Goto NoCharges
         CRAT A 1
         CRA2 A 1
-        CRA2 B 1
+        CRA2 B 10
         CRA2 C 1
         TNT1 A 0 A_Giveinventory("HasCutingWeapon",1)
         CRAT B 1
         CRAT G 1 A_FireProjectile("CrucibleAttack", 0, 0, 0, 0, 0, 0)
-        CRAT HIJ 1
-        CRAT K 1
+        CRAT HIJ 2
+        CRAT KLMNOP 1
         CRAT A 0 A_ReFire
         Goto Ready2
         
