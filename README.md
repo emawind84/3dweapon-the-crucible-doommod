@@ -7,7 +7,7 @@ The 3D Weapon has been tested for Oculus Quest 2 using QuestZDoom (https://www.q
 
 The sword works with Red Energy Charges, every hit use one charge, the alternate fire make a shield that use two charges.
 
-![Red Energy Charge](/sprites/Weapons/TheCrucible/ARENE0.png)
+![Red Energy Charge](/sprites/Weapons/TheCrucible/ARENA0.png)
 
 ---
 
@@ -45,7 +45,7 @@ You can also summon the sword using the following commands:
 
 ## Other stuff
 
-Tools used for making the mod, **Slade3**, **Blender 2.80**, **Noesis MD3 Viewer**, **Audacity**, **paint.net**, **Premiere Pro**, **Doom Builder**
+Tools used to develop the mod, **Slade3**, **Blender 2.80**, **Noesis MD3 Viewer**, **Audacity**, **paint.net**, **Premiere Pro**, **Doom Builder**
 
 ---
 ## Credits
