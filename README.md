@@ -7,7 +7,7 @@ The 3D Weapon has been tested for Oculus Quest 2 using QuestZDoom (https://www.q
 
 The sword works with Red Energy Charges, every hit use one charge, the alternate fire make a shield that use two charges.
 
-![Red Energy Charge](/sprites/Weapons/TheCrucible/ARENE0.png)
+![Red Energy Charge](/sprites/Weapons/TheCrucible/ARENA0.png)
 
 ---
 
@@ -18,8 +18,6 @@ The sword works with Red Energy Charges, every hit use one charge, the alternate
 **QuestZDoom** if you want to play with the 3D version on Quest 2 - https://www.questzdoom.com/
 
 **Brutal Doom v21** - https://www.moddb.com/mods/brutal-doom/downloads/brutal-doom-v21-beta
-
-**Flamethrower Crucible Mod v1.2** by a90doomguy if you want to use the 2D version of the sword - https://www.moddb.com/mods/doom-exp/addons/flamethrower-crucible-mod-v12
 
 ---
 
@@ -45,7 +43,7 @@ You can also summon the sword using the following commands:
 
 ## Other stuff
 
-Tools used for making the mod, **Slade3**, **Blender 2.80**, **Noesis MD3 Viewer**, **Audacity**, **paint.net**, **Premiere Pro**, **Doom Builder**
+Tools used to develop the mod, **Slade3**, **Blender 2.80**, **Noesis MD3 Viewer**, **Audacity**, **paint.net**, **Premiere Pro**, **Doom Builder**
 
 ---
 ## Credits
@@ -53,7 +51,7 @@ Tools used for making the mod, **Slade3**, **Blender 2.80**, **Noesis MD3 Viewer
 Doom Eternal Crucible Blend 3d Model by MujeerUllah
 (https://www.turbosquid.com/3d-models/doom-eternal-sword-weapon-3d-model-1578855)
 
-Flamethrower Crucible Mod v1.2 by a90doomguy
+Weapon sprites from Flamethrower Crucible Mod v1.2 by a90doomguy
 (https://www.moddb.com/mods/doom-exp/addons/flamethrower-crucible-mod-v12)
 
 ---
