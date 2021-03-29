@@ -1,0 +1,7 @@
+sprite ARENE0, 80, 80
+{
+XScale 5
+YScale 5
+Offset 35, 68
+Patch ARENE0, 0, 0 {}
+}
