@@ -48,10 +48,10 @@ Tools used to develop the mod, **Slade3**, **Blender 2.80**, **Noesis MD3 Viewer
 ---
 ## Credits
 
-Doom Eternal Crucible Blend 3d Model by MujeerUllah
+※ Doom Eternal Crucible Blend 3d Model by MujeerUllah
 (https://www.turbosquid.com/3d-models/doom-eternal-sword-weapon-3d-model-1578855)
 
-Weapon sprites from Flamethrower Crucible Mod v1.2 by a90doomguy
+※ Weapon sprites and idle sound from Flamethrower Crucible Mod v1.2 by a90doomguy
 (https://www.moddb.com/mods/doom-exp/addons/flamethrower-crucible-mod-v12)
 
 ---
